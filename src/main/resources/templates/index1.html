@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html >
+
+<!--[if !IE]><!-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org"> <!--<![endif]-->
+  <head>
+    <title>邓金鸿个人简历</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" th:href="@{/images/favicon.ico}">
+    <link
+        href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" th:href="@{/plugins/bootstrap/css/bootstrap.min.css}">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" th:href="@{/plugins/font-awesome/css/font-awesome.css}">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" th:href="@{/css/styles.css}">
+
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="top-bar container-fluid">
+        <div class="actions">
+          <a class="btn hidden-xs" href="mailto:1464198210@qq.com"><i class="fa fa-paper-plane"
+                                                                        aria-hidden="true"></i>邮我</a>
+        </div><!--//actions-->
+      </div><!--//top-bar-->
+      <div class="intro">
+        <div class="container text-center">
+          <img class="profile-image" th:src="@{/images/my.png}" alt="">
+          <h1 class="name">邓金鸿</h1>
+          <div class="title">求职意向：JAVA工程师
+          </div>
+          <div class="profile">本简历由SpringBoot+Thymeleaf制作。项目地址为</div>
+        </div><!--//profile-->
+      </div><!--//container-->
+
+      <div class="contact-info">
+        <div class="container text-center">
+          <ul class="list-inline">
+            <li class="email"><i class="fa fa-envelope"></i><a href="mailto:1464198210@qq.com">1464198210@qq.com</a>
+            </li>
+            <li><i class="fa fa-phone"></i> <a href="tel: 15524012015">15524012015</a></li>
+            <li class="website"><i class="fa fa-globe"></i><a href="https://github.com/lktsuer" target="_blank">https://github.com/lktsuer</a>
+            </li>
+          </ul>
+        </div><!--//container-->
+      </div><!--//contact-info-->
+
+      <div class="page-nav-space-holder hidden-xs">
+        <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+          <div class="container">
+            <ul id="page-nav" class="nav page-nav list-inline">
+              <li><a class="scrollto" href="#eudcation-section">教育背景</a></li>
+              <li><a class="scrollto" href="#experiences-section">校内经历</a></li>
+              <li><a class="scrollto" href="#skills-section">技能</a></li>
+              <li><a class="scrollto" href="#testimonials-section">个人评价</a></li>
+              <li><a class="scrollto" href="#portfolio-section">项目经历</a></li>
+              <li><a class="scrollto" href="#contact-section">联系方式</a></li>
+            </ul><!--//page-nav-->
+          </div>
+        </div><!--//page-nav-wrapper-->
+      </div>
+
+    </header><!--//header-->
+
+    <div class="wrapper container">
+      <section id="eudcation-section" class="education-section section">
+        <h2 class="section-title">教育背景</h2>
+        <div class="row">
+          <div class="item col-xs-12 col-sm-10">
+            <div class="item-inner">
+              <h2 style="color: #00BCD4;"><strong>辽宁大学</strong></h2>
+              <!--					<div class="education-body">-->
+              <!--						Liaoning University-->
+              <!--					</div>&lt;!&ndash;//education-body&ndash;&gt;-->
+              <div class="time">2017 - 2021</div>
+              <div class="desc">
+                2017.09 入学辽宁大学，本科在读;<br><br>
+                专业为：信息与计算科学专业;<br><br>
+                主修:数据结构，数值分析，JAVA编程等课程;
+              </div>
+            </div><!--//item-inner-->
+          </div><!--//item-->
+
+
+        </div><!--//row-->
+      </section><!--//section-->
+
+      <section id="experiences-section" class="experiences-section section">
+        <h2 class="section-title">校内经历</h2>
+        <div class="timeline">
+          <div class="item">
+            <div class="work-place">
+              <h3 class="place"> 2017.09 -- 2018.06</h3>
+            </div>
+            <div class="job-meta">
+              <div class="title"><strong>校新媒体中心 部员</strong></div>
+            </div><!--//job-meta-->
+            <div class="job-desc">
+              <p>主要工作： 制作院内宣传海报展板，制作院内宣传视频。</p>
+            </div><!--//job-desc-->
+          </div><!--//item-->
+          <div class="item">
+            <div class="work-place">
+              <h3 class="place">2018.09 -- 2019.06</h3>
+              <div class="job-meta">
+                <div class="title"><strong>团委创新创业中心 副部</strong></div>
+              </div><!--//job-meta-->
+              <div class="job-desc">
+                <p>主要工作： 制作大会所需的PPT，制作院内宣传视频。</p>
+              </div><!--//job-desc-->
+            </div><!--//item-->
+          </div>
+          <div class="item">
+            <div class="work-place">
+              <h3 class="place">2019.06 – 2020.06</h3>
+            </div>
+            <div class="job-meta">
+              <div class="title"><strong>学生会宣传部部长</strong></div>
+            </div><!--//job-meta-->
+            <div class="job-desc">
+              <p>主要工作： 统筹规划，带领部员副部完成院内宣传活动。</p>
+            </div><!--//job-desc-->
+          </div><!--//item-->
+        </div><!--//timeline-->
+
+      </section><!--//section-->
+
+      <section id="skills-section" class="skills-section section text-center">
+        <h2 class="section-title">技能</h2>
+        <div class="top-skills">
+          <div class="row">
+            <div class="item col-xs-12 col-sm-4">
+              <div class="item-inner">
+                <div class="chart-easy-pie text-center">
+                  <div class="chart-theme-1 chart" data-percent="90"><span>主要</span></div>
+                </div>
+                <h4 class="skill-name">SpringBoot</h4>
+                <div class="desc">
+                 使用SpringBoot+MybatisPlus+MySQL部署项目
+                </div>
+              </div><!--//item-inner-->
+            </div><!--//item-->
+            <div class="item col-xs-12 col-sm-4">
+              <div class="item-inner">
+                <div class="chart-easy-pie text-center">
+                  <div class="chart-theme-1 chart" data-percent="80"><span>Skill2</span></div>
+                </div>
+                <h4 class="skill-name">Git</h4>
+                <div class="desc">
+                  使用Git协同开发，管理项目
+                </div>
+              </div><!--//item-inner-->
+            </div><!--//item-->
+            <div class="item col-xs-12 col-sm-4">
+              <div class="item-inner">
+                <div class="chart-easy-pie text-center">
+                  <div class="chart-theme-1 chart" data-percent="70"><span>Skill3</span></div>
+                </div>
+                <h4 class="skill-name">MySQL</h4>
+                <div class="desc">
+                  连接查询，多表查询，子查询等
+                </div>
+              </div><!--//item-inner-->
+            </div><!--//item-->
+          </div><!--//row-->
+        </div><!--//top-skills-->
+
+        <div class="other-skills">
+          <h3 class="subtitle">相关技能</h3>
+          <div class="misc-skills">
+            <span class="skill-tag">Spring</span>
+            <span class="skill-tag">MyBatis</span>
+            <span class="skill-tag">Tomcat</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Redis</span>
+            <br>
+          </div>
+          <div>
+            <h3 class="subtitle">其他技能</h3>
+
+            <span class="skill-tag">PhotoShop</span>
+            <span class="skill-tag">AfterEffects</span>
+            <span class="skill-tag">PremierePro</span>
+            <span class="skill-tag">PowerPoint</span>
+            <span class="skill-tag">Word</span>
+            <span class="skill-tag">Excel</span>
+          </div>
+        </div><!--//other-skills-->
+
+      </section><!--//skills-section-->
+
+      <section id="testimonials-section" class="testimonials-section section">
+        <h2 class="section-title">个人评价</h2>
+
+        <div id="testimonials-carousel" class="testimonials-carousel carousel slide" data-interval="8000">
+
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <blockquote class="quote">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  本人具有较强的自学能力，大学学习中打下了扎实的数学功底，同时自学了Java编程，视频剪辑，Ps制图，Office等技能。
+                  在校期间获得了计算机二级，CET4等证书。
+                  本人具有良好的心态和责任感，吃苦耐劳，擅于管理时间，勇于面对变化和挑战。
+                  习惯制定切实可行的学习计划，勤于学习不断提高。</p>
+              </blockquote>
+            </div><!--//item-->
+          </div><!--//carousel-inner-->
+        </div><!--//testimonials-carousel-->
+
+      </section><!--//section-->
+
+      <section id="portfolio-section" class="portfolio-section section">
+        <h2 class="section-title">项目经历</h2>
+        <ul id="filters" class="filters clearfix">
+          <li class="type active" data-filter="*">所有</li>
+          <li class="type" data-filter=".backend">前端</li>
+          <li class="type" data-filter=".frontend">后端</li>
+        </ul><!--//filters-->
+        <div class="items-wrapper isotope row">
+          <div class="item frontend col-md-3 col-xs-6 ">
+            <div class="item-inner">
+              <figure class="figure">
+                <img class="img-responsive" th:src="@{/images/springboot.png}" alt=""/>
+              </figure>
+              <div class="content text-left">
+                <h3 class="sub-title"><a href="#">成绩管理系统</a></h3>
+                <div class="meta">SpringBoot</div>
+              </div><!--//content-->
+              <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+          </div><!--//item-->
+          <div class="item backend col-md-3 col-xs-6 ">
+            <div class="item-inner">
+              <figure class="figure">
+                <img class="img-responsive" th:src="@{/images/springboot.png}" alt=""/>
+              </figure>
+              <div class="content text-left">
+                <h3 class="sub-title"><a href="#">个人博客</a></h3>
+                <div class="meta">SpringBoot</div>
+              </div><!--//content-->
+              <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+          </div><!--//博客-->
+          <div class="item frontend col-md-3 col-xs-6 ">
+            <div class="item-inner">
+              <figure class="figure">
+                <img class="img-responsive" th:src="@{/images/springboot.png}" alt=""/>
+              </figure>
+              <div class="content text-left">
+                <h3 class="sub-title"><a href="#">员工管理系统</a></h3>
+                <div class="meta">SpringBoot</div>
+              </div><!--//content-->
+              <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+          </div><!--//item-->
+          <div class="item frontend col-md-3 col-xs-6 ">
+            <div class="item-inner">
+              <figure class="figure">
+                <img class="img-responsive" th:src="@{/images/mysql.jpg}" alt=""/>
+              </figure>
+              <div class="content text-left">
+                <h3 class="sub-title"><a href="#">数据库设计</a></h3>
+                <div class="meta">MySQL</div>
+              </div><!--//content-->
+              <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+          </div><!--//item-->
+
+
+        </div><!--//item-wrapper-->
+
+      </section><!--//section-->
+
+      <section id="contact-section" class="contact-section section">
+        <h2 class="section-title">联系方式</h2>
+        <div class="intro">
+          <img class="profile-image" th:src="@{/images/my.png}" alt=""/>
+          <div class="dialog">
+            <p>本人真切希望得到这份工作，在贵公司实现自己的价值</p>
+            <p><strong>我能做到:</strong></p>
+            <ul class="list-unstyled service-list">
+              <li><i class="fa fa-check" aria-hidden="true"></i> 参与微服务平台业务系统开发工作</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> 设计MyqSql数据库，熟练SQL及调优方法</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> 分析项目需求，给出良好的技术解决方案，完成系统设计与开发。</li>
+            </ul>
+            <p>若您对我满意，希望可以联系我： <br>邮箱： <a href="mailto:1464198210@qq.com">1464198210@qq.com</a> ；<br>或者通过手机号码： <a
+                href="tel:15524012015">15524012015</a></p>
+          </div><!--//diaplog-->
+        </div><!--//intro-->
+
+      </section><!--//section-->
+
+    </div><!--//wrapper-->
+
+    <footer class="footer text-center">
+      <div class="container">
+        <small class="copyright">本简历由邓金鸿制作，用于求职，请勿用作商业用途</small>
+      </div><!--//container-->
+    </footer>
+
+    <!-- Javascript -->
+    <script type="text/javascript" th:src="@{/plugins/jquery-1.12.4.min.js}"></script>
+    <script type="text/javascript" th:src="@{/plugins/bootstrap/js/bootstrap.min.js}"></script>
+    <script type="text/javascript" th:src="@{/plugins/back-to-top.js}"></script>
+    <script type="text/javascript" th:src="@{/plugins/jquery-scrollTo/jquery.scrollTo.min.js}"></script>
+    <script type="text/javascript" th:src="@{/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js}"></script>
+    <script type="text/javascript" th:src="@{/plugins/imagesloaded.pkgd.min.js}"></script>
+    <script type="text/javascript" th:src="@{/plugins/isotope.pkgd.min.js}"></script>
+
+    <!-- custom js -->
+    <script type="text/javascript" th:src="@{/js/main.js}"></script>
+
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script th:src="@{/js/demo/style-switcher.js}"></script>
+
+  </body>
+</html>
